@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1 id="cricket">WELCOME!</h1>
+        <p>this is the cricket world</p>
+        <h1>shubman gill</h1>
+        <p>shubman gill is my favourite cricketer</p>
+        <script>
+        var text=document.getElementById("cricket").innerHTML
+        alert("THE CRICKET WORLD " + text)
+        </script>
+        <h2>some of my favourites:</h2>
+        <p id="mycricketpop"></p>
+        <p id="myfirstcricketpop"></p>
+        <p id="mysecondcricketpop"></p>
+        <script>
+            var cricket=["virat","bhumrah","shubman","abishek"];
+            document.getElementById("mycricket").innerHTML=cricket.pop(",");
+            document.getElementById('myfirstcricketpop').innerHTML=cricket;cricket.pop();
+            document.getElementById("mysecondcricketpop").innerHTML=cricket;
+    </script>
+        <p id="Cricket"> </p>
+     <script>
+            var cricketers=[
+                "shubman",
+                "virat",
+                "tilak",
+            ];
+            document.getElementById("cricketers").innerHTML=cricketers[1]
+        </script>
+    </body>
+</html>
